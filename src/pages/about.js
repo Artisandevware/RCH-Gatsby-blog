@@ -8,10 +8,11 @@ export default function About() {
 			<Link to="/contact/">Contact</Link>
 			<Link to="/about/">About</Link>
 			<Link to="/blog/">Blog</Link>
-			<Header headerText="About Gatsby" />
-			<Header headerText="It's pretty cool" />
-			<p>Such wow. Very React.</p>
-
+			<div style={{ margin: "3rem auto", maxWidth: 600 }}>
+				<Header headerText="About Gatsby" />
+				<Header headerText="It's pretty cool" />
+				<p>Nice!!</p>
+			</div>
 			
 		</div>
 	);
