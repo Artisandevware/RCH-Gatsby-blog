@@ -1,5 +1,6 @@
 module.exports = {
 	siteMetadata: {
+		location: "Arizona",
 		title: "Russell's Portfolio and Sandbox Site",
 		author: {
 			name: "Russell Hrycko",
