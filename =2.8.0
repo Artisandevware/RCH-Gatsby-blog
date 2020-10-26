@@ -1,0 +1,47 @@
+/usr/local/bin/acorn -> /usr/local/lib/node_modules/acorn/bin/acorn
+/usr/local/bin/gatsby -> /usr/local/lib/node_modules/gatsby/dist/bin/gatsby.js
+/usr/local/bin/tsserver -> /usr/local/lib/node_modules/typescript/bin/tsserver
+/usr/local/bin/tsc -> /usr/local/lib/node_modules/typescript/bin/tsc
+
+> fsevents@1.2.13 install /usr/local/lib/node_modules/gatsby/node_modules/fsevents
+> node install.js
+
+  SOLINK_MODULE(target) Release/.node
+  CXX(target) Release/obj.target/fse/fsevents.o
+  SOLINK_MODULE(target) Release/fse.node
+
+> core-js@2.6.11 postinstall /usr/local/lib/node_modules/gatsby/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> core-js-pure@3.6.5 postinstall /usr/local/lib/node_modules/gatsby/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> gatsby-telemetry@1.3.38 postinstall /usr/local/lib/node_modules/gatsby/node_modules/gatsby-telemetry
+> node src/postinstall.js || true
+
+
+> gatsby-cli@2.12.111 postinstall /usr/local/lib/node_modules/gatsby/node_modules/gatsby-cli
+> node scripts/postinstall.js
+
+Success!
+
+Welcome to the Gatsby CLI! Please visit https://www.gatsbyjs.org/docs/gatsby-cli/ for more information.
+
++ acorn@6.4.2
++ react-refresh@0.8.3
++ @mdx-js/react@1.6.19
++ react@16.8.1
++ gatsby@2.6.0
++ react-dom@16.8.1
++ typescript@4.0.3
+added 626 packages from 491 contributors, removed 188 packages, updated 528 packages and moved 28 packages in 175.17s
