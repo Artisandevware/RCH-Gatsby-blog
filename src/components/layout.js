@@ -21,8 +21,9 @@ const Layout = ({ location, title, children }) => {
 	}
 
 	return (
-    
-		<div className="global-wrapper" data-is-root-path={isRootPath}>
+		
+	  
+		<div style={{ margin: "3rem auto", maxWidth: 650, padding: "0 1rem" }} className="global-wrapper" data-is-root-path={isRootPath}>
 			<header className="global-header">{header}</header>
 			<main>{children}</main>
 			<footer>
@@ -35,9 +36,7 @@ const Layout = ({ location, title, children }) => {
 };
 //export default function Layout({ children }) {
 //	return (
-//	  <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
-//		{children}
-//	  </div>
+//	  
 //	)
 //}
 export default Layout;

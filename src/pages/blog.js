@@ -4,6 +4,8 @@ import Header from "../components/header"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+//import Nav-bar from "..components/nav-bar"
+
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`

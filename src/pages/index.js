@@ -5,7 +5,7 @@ import Header from "../components/header";
 
 export default function Home() {
 	return (
-		<div style={{ color: "white" }}>
+		<div style={{ margin: "3rem auto", maxWidth: 650, padding: "5rem", color: "white" }}>
 			<Link to="/contact/">Contact</Link>
 			<Link to="/about/">About</Link>
 			<Link to="/blog/">Blog</Link>
